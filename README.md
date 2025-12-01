@@ -23,7 +23,7 @@ The memory array contained four primary conditions:
     * Two repeated colors with strong spatial proximity **(3-RSP)**.
     * Two repeated colors with weak spatial proximity **(3-RWP)**.
 
-### The Probe in Repeated Conditions
+The Probe in Repeated Conditions
 
 In the repeated conditions (3-RSP and 3-RWP), the single-item probe could test two different item types for change detection:
 
