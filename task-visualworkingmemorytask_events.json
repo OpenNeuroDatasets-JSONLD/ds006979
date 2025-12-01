@@ -1,0 +1,212 @@
+{
+  "onset": {
+    "Description": "Onset time of the event, synchronized with the EEG recording clock.",
+    "Units": "seconds"
+  },
+  "duration": {
+    "Description": "Duration of the event. Zero (0) for instantaneous events.",
+    "Units": "seconds"
+  },
+  "sample": {
+    "Description": "Onset time of the event expressed in samples from the beginning of the recording.",
+    "Units": "samples"
+  },
+  "type": {
+    "Description": "The category of the recorded event marker (e.g., stimulus presentation, response).",
+    "Levels": {
+      "trigger": "TTL pulse sent by stimulus presentation software.",
+      "response": "A button press event."
+    }
+  },
+  "value": {
+    "Description": "The raw numerical code of the event marker or TTL pulse.",
+    "Units": "n/a"
+  },
+  "Session_Name_": {
+    "Description": "Identifier for the current experimental session.",
+    "Units": "n/a"
+  },
+  "Trial_Index_": {
+    "Description": "Sequential index of the trial within the entire session (used by E-Prime/PsychoPy).",
+    "Units": "n/a"
+  },
+  "Trial_Recycled_": {
+    "Description": "Indicates if a trial was recycled (e.g., due to an error or artifact).",
+    "Levels": {
+      "True": "Trial was recycled.",
+      "False": "Trial was run as planned."
+    }
+  },
+  "TRIAL_INDEX": {
+    "Description": "The main sequential index used for data analysis.",
+    "Units": "n/a"
+  },
+  "KEYPRESS": {
+    "Description": "The raw key pressed by the participant.",
+    "Units": "n/a"
+  },
+  "RESPONSE": {
+    "Description": "Categorical outcome of the participant's response.",
+    "Levels": {
+      "Correct": "Correct response.",
+      "Incorrect": "Incorrect response (error).",
+      "na": "No response/missing."
+    }
+  },
+  "RT": {
+    "Description": "Reaction Time: time elapsed between probe onset and button press.",
+    "Units": "milliseconds"
+  },
+  "Positions_list": {
+    "Description": "String representation of the coordinate list for all stimulus positions (e.g., E-Prime EBPoint objects).",
+    "Units": "n/a"
+  },
+  "Colors_list": {
+    "Description": "String representation of the RGB color codes used for all stimuli.",
+    "Units": "n/a"
+  },
+  "set_size": {
+    "Description": "The number of items presented in the visual working memory array.",
+    "Levels": { "2": "Set size of two items.", "3": "Set size of three items." }
+  },
+  "SOA_duration": {
+    "Description": "Stimulus Onset Asynchrony duration.",
+    "Units": "milliseconds"
+  },
+  "DISPLAY_ON_TIME": {
+    "Description": "System timestamp when the main stimulus array was displayed.",
+    "Units": "n/a"
+  },
+  "KEY_RESPONSE_TIME": {
+    "Description": "System timestamp when the key response was logged.",
+    "Units": "n/a"
+  },
+  "DELAY_PERIOD_duration": {
+    "Description": "Duration of the retention interval/delay period.",
+    "Units": "milliseconds"
+  },
+  "trial_num": {
+    "Description": "The running index of the trial within the current block (same as TRIAL_INDEX or trial_num).",
+    "Units": "n/a"
+  },
+  "practice_status": {
+    "Description": "Indicates if the trial was part of a practice block.",
+    "Levels": { "0": "Experimental trial.", "1": "Practice trial." }
+  },
+  "block": {
+    "Description": "The sequential index of the experimental block.",
+    "Units": "n/a"
+  },
+  "condition": {
+    "Description": "The main experimental condition.",
+    "Units": "n/a"
+  },
+  "probe_type": {
+    "Description": "The category of the probe stimulus.",
+    "Units": "n/a"
+  },
+  "change_probe": {
+    "Description": "Indicates if the probe item was a change from the memory array.",
+    "Units": "n/a"
+  },
+  "cue_direction": {
+    "Description": "Direction of the cue (e.g., left or right).",
+    "Levels": { "right": "Cued right hemifield.", "left": "Cued left hemifield." }
+  },
+  "cue_image": {
+    "Description": "File name of the image used for the central cue.",
+    "Units": "n/a"
+  },
+  "expected_response": {
+    "Description": "The key the participant was expected to press for a correct response.",
+    "Units": "n/a"
+  },
+  "stimulus_position2ug": {
+    "Description": "Position index or coordinate for 2ug condition",
+    "Units": "n/a"
+  },
+  "probe_position": {
+    "Description": "The position of the probe stimulus on the screen.",
+    "Units": "n/a"
+  },
+  "color0": {
+    "Description": "Color code/index for stimulus item 0.",
+    "Units": "n/a"
+  },
+  "color1": {
+    "Description": "Color code/index for stimulus item 1.",
+    "Units": "n/a"
+  },
+  "color2": {
+    "Description": "Color code/index for stimulus item 2.",
+    "Units": "n/a"
+  },
+  "color3": {
+    "Description": "Color code/index for stimulus item 3.",
+    "Units": "n/a"
+  },
+  "color4": {
+    "Description": "Color code/index for stimulus item 4.",
+    "Units": "n/a"
+  },
+  "color5": {
+    "Description": "Color code/index for stimulus item 5.",
+    "Units": "n/a"
+  },
+  "position_color0": {
+    "Description": "Position index for the item with color 0.",
+    "Units": "n/a"
+  },
+  "position_color1": {
+    "Description": "Position index for the item with color 1.",
+    "Units": "n/a"
+  },
+  "position_color2": {
+    "Description": "Position index for the item with color 2.",
+    "Units": "n/a"
+  },
+  "position_color3": {
+    "Description": "Position index for the item with color 3.",
+    "Units": "n/a"
+  },
+  "position_color4": {
+    "Description": "Position index for the item with color 4.",
+    "Units": "n/a"
+  },
+  "position_color5": {
+    "Description": "Position index for the item with color 5.",
+    "Units": "n/a"
+  },
+  "probe_color0": {
+    "Description": "Color code/index of the probe in the first position.",
+    "Units": "n/a"
+  },
+  "probe_color1": {
+    "Description": "Color code/index of the probe in the second position (if applicable).",
+    "Units": "n/a"
+  },
+  "probe_position1": {
+    "Description": "Position index for the probe item 1.",
+    "Units": "n/a"
+  },
+  "probe_postion0": {
+    "Description": "Position index for the probe item 0.",
+    "Units": "n/a"
+  },
+  "ttl_probe": {
+    "Description": "TTL code for probe presentation event.",
+    "Units": "n/a"
+  },
+  "ttl_correct": {
+    "Description": "TTL code for a correct response event.",
+    "Units": "n/a"
+  },
+  "ttl_incorrect": {
+    "Description": "TTL code for an incorrect response event.",
+    "Units": "n/a"
+  },
+  "ttl_stimulus": {
+    "Description": "TTL code for stimulus array presentation event.",
+    "Units": "n/a"
+  }
+}
