@@ -20,8 +20,8 @@ The memory array contained four primary conditions:
 
 * **Unrepeated (UR):** Arrays with 2 or 3 unique colors (**2-UR, 3-UR**).
 * **Repeated (R):** Arrays with 3 items, where two colors were repeated. This condition was further subdivided based on spatial arrangement:
-    * Two repeated colors with **strong spatial proximity (3-RSP)**.
-    * Two repeated colors with **weak spatial proximity (3-RWP)**.
+    * Two repeated colors with strong spatial proximity **(3-RSP)**.
+    * Two repeated colors with weak spatial proximity **(3-RWP)**.
 
 ### The Probe in Repeated Conditions
 
