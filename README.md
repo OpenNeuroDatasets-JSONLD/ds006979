@@ -60,7 +60,7 @@ The study leverages the following ERP components to index different VWM processi
 
 ### BIDS Compliance
 
-The data is structured following the **Brain Imaging Data Structure (BIDS) standard** for EEG.
+The data is structured following the Brain Imaging Data Structure (BIDS) standard for EEG.
 
 * **Acquisition Parameters:** Detailed recording specifications (e.g., 512 Hz sampling rate, Sinc filter details) are provided in the task-level BIDS JSON files (task-myexperiment_eeg.json).
 * **Methodology:** Comprehensive details on offline preprocessing (e.g., re-referencing to average mastoids, ICA artifact removal, 0.1 Hz high-pass filtering) and the precise analysis plan (e.g., ERP measurement windows, HEOG artifact thresholds, channel clusters) are provided in the stage 1 protocol on OSF (https://doi.org/10.17605/OSF.IO/8ZS96).
@@ -71,7 +71,7 @@ The data is structured following the **Brain Imaging Data Structure (BIDS) stand
 
 The following table maps the trigger codes recorded in the EEG data to the specific experimental events.
 
-* **Acronym Key:** **UR** = Unrepeated; **RWP** = Repeated Weak Proximity; **RSP** = Repeated Strong Proximity.
+* **Acronym Key:** UR = Unrepeated; RWP = Repeated Weak Proximity; RSP = Repeated Strong Proximity.
 
 | Trigger Code | Event Description |
 | :---: | :--- |
