@@ -8,7 +8,7 @@
   "HardwareFilters": "Band-pass 0.16 to 100 Hz",
   "EEGChannelCount": 64,
   "EOGChannelCount": 3,
-  "EEGReference": "CMS (Common Mode Sense) and DRL (Driven Right Leg) passive electrodes.",
+  "EEGReference": "CMS (Common Mode Sense) and DRL (Driven Right Leg) passive electrodes",
   "EEGGround": "DRL (Driven Right Leg) passive electrode providing common-mode noise rejection",
   "CapManufacturer": "BioSemi",
   "CapManufacturersModelName": "ActiveTwo Cap 64-channel",
@@ -17,5 +17,5 @@
   "Units": "uV",
   "RecordingType": "continuous",
   "RecordingDuration": 3600.0,
-  "SubjectArtefactDescription": "Participants were instructed to minimize head and eye movements."
+  "SubjectArtefactDescription": "Participants were instructed to minimize head and eye movements"
 }
