@@ -14,16 +14,16 @@ The study is designed to temporally isolate and measure the neural correlates of
 
 Subjects were cued to encode the colors of 2 or 3 squares in one visual hemifield. After a maintenance period, a single-item probe was presented to determine if its color had changed.
 
-### Key Manipulations (Attended Memory Array)
+### Key Manipulations
 
-The attended memory array contained three primary conditions:
+The memory array contained four primary conditions:
 
 * **Unrepeated (UR):** Arrays with 2 or 3 unique colors (**2-UR, 3-UR**).
 * **Repeated (R):** Arrays with 3 items, where two colors were repeated. This condition was further subdivided based on spatial arrangement:
     * Two repeated colors with **strong spatial proximity (3-RSP)**.
     * Two repeated colors with **weak spatial proximity (3-RWP)**.
 
-### The Probe in Repeated (R) Conditions
+### The Probe in Repeated Conditions
 
 In the repeated conditions (3-RSP and 3-RWP), the single-item probe could test two different item types for change detection:
 
@@ -54,7 +54,7 @@ The study leverages the following ERP components to index different VWM processi
 | :--- | :--- |
 | **Subjects (N)** | 53 (N=39 used for stimulus-locked ERPs, see `participants.tsv` for details) |
 | **Electrode System** | BioSemi ActiveTwo System |
-| **Number of Channels** | 71 (64 scalp, **3 EOG**, 2 Mastoid, 1 CMS/DRL) |
+| **Number of Channels** | 71 (64 scalp, 3 EOG, 2 Mastoid, 1 CMS/DRL) |
 | **Sampling Rate (Acquisition)** | 512 Hz |
 | **Total Trials** | 1248 trials |
 
@@ -62,8 +62,8 @@ The study leverages the following ERP components to index different VWM processi
 
 The data is structured following the **Brain Imaging Data Structure (BIDS) standard** for EEG.
 
-* **Acquisition Parameters:** Detailed recording specifications (e.g., $512 \text{ Hz}$ sampling rate, Sinc filter details) are provided in the task-level BIDS JSON files (`*task-myexperiment_eeg.json`).
-* **Methodology:** Comprehensive details on offline preprocessing (e.g., re-referencing to average mastoids, ICA artifact removal, $0.1 \text{ Hz}$ high-pass filtering) and the precise analysis plan (e.g., ERP measurement windows, HEOG artifact thresholds, channel clusters) are provided in the separate **`methods.md`** file.
+* **Acquisition Parameters:** Detailed recording specifications (e.g., 512 Hz sampling rate, Sinc filter details) are provided in the task-level BIDS JSON files (task-myexperiment_eeg.json).
+* **Methodology:** Comprehensive details on offline preprocessing (e.g., re-referencing to average mastoids, ICA artifact removal, 0.1 Hz high-pass filtering) and the precise analysis plan (e.g., ERP measurement windows, HEOG artifact thresholds, channel clusters) are provided in the stage 1 protocol on OSF (https://doi.org/10.17605/OSF.IO/8ZS96).
 
 ---
 
