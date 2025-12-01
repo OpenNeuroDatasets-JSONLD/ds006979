@@ -8,16 +8,14 @@
   "HardwareFilters": "Band-pass 0.16 to 100 Hz",
   "EEGChannelCount": 64,
   "EOGChannelCount": 3,
-  "EEGReference": "CMS (Common Mode Sense) and DRL (Driven Right Leg) passive electrodes forming a feedback loop, providing a virtual reference.",
+  "EEGReference": "CMS (Common Mode Sense) and DRL (Driven Right Leg) passive electrodes.",
   "EEGGround": "DRL (Driven Right Leg) passive electrode providing common-mode noise rejection",
   "CapManufacturer": "BioSemi",
   "CapManufacturersModelName": "ActiveTwo Cap 64-channel",
   "ElectrodeManufacturerAndModel": "BioSemi Active Electrodes",
   "EEGElectrodeSystem": "10-20",
-  "HeadCircumference": 58.0,
   "Units": "uV",
   "RecordingType": "continuous",
   "RecordingDuration": 3600.0,
-  "DewarHas continuously been maintained at a temperature below 77.3K": "false",
-  "SubjectArtefactDescription": "Participants were instructed to blink only during the response phase and to minimize head movements."
+  "SubjectArtefactDescription": "Participants were instructed to minimize head and eye movements."
 }
