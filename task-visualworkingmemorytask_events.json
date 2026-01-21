@@ -12,201 +12,49 @@
     "Units": "samples"
   },
   "type": {
-    "Description": "The category of the recorded event marker (e.g., stimulus presentation, response).",
+    "Description": "The category of the recorded event marker.",
     "Levels": {
       "trigger": "TTL pulse sent by stimulus presentation software.",
-      "response": "A button press event."
+      "response": "A button press event recorded by the system."
     }
   },
   "value": {
-    "Description": "The raw numerical code of the event marker or TTL pulse.",
-    "Units": "n/a"
-  },
-  "Session_Name_": {
-    "Description": "Identifier for the current experimental session.",
-    "Units": "n/a"
-  },
-  "Trial_Index_": {
-    "Description": "Sequential index of the trial within the entire session (used by E-Prime/PsychoPy).",
-    "Units": "n/a"
-  },
-  "Trial_Recycled_": {
-    "Description": "Indicates if a trial was recycled (e.g., due to an error or artifact).",
+    "Description": "The raw numerical code of the event marker, mapping to experimental conditions for N2pc, CDA, N2, and FN400 analysis.",
     "Levels": {
-      "True": "Trial was recycled.",
-      "False": "Trial was run as planned."
-    }
-  },
-  "TRIAL_INDEX": {
-    "Description": "The main sequential index used for data analysis.",
-    "Units": "n/a"
-  },
-  "KEYPRESS": {
-    "Description": "The raw key pressed by the participant.",
-    "Units": "n/a"
-  },
-  "RESPONSE": {
-    "Description": "Categorical outcome of the participant's response.",
-    "Levels": {
-      "Correct": "Correct response.",
-      "Incorrect": "Incorrect response (error).",
-      "na": "No response/missing."
-    }
-  },
-  "RT": {
-    "Description": "Reaction Time: time elapsed between probe onset and button press.",
-    "Units": "milliseconds"
-  },
-  "Positions_list": {
-    "Description": "String representation of the coordinate list for all stimulus positions (e.g., E-Prime EBPoint objects).",
-    "Units": "n/a"
-  },
-  "Colors_list": {
-    "Description": "String representation of the RGB color codes used for all stimuli.",
-    "Units": "n/a"
-  },
-  "set_size": {
-    "Description": "The number of items presented in the visual working memory array.",
-    "Levels": { "2": "Set size of two items.", "3": "Set size of three items." }
-  },
-  "SOA_duration": {
-    "Description": "Stimulus Onset Asynchrony duration.",
-    "Units": "milliseconds"
-  },
-  "DISPLAY_ON_TIME": {
-    "Description": "System timestamp when the main stimulus array was displayed.",
-    "Units": "n/a"
-  },
-  "KEY_RESPONSE_TIME": {
-    "Description": "System timestamp when the key response was logged.",
-    "Units": "n/a"
-  },
-  "DELAY_PERIOD_duration": {
-    "Description": "Duration of the retention interval/delay period.",
-    "Units": "milliseconds"
-  },
-  "trial_num": {
-    "Description": "The running index of the trial within the current block (same as TRIAL_INDEX or trial_num).",
-    "Units": "n/a"
-  },
-  "practice_status": {
-    "Description": "Indicates if the trial was part of a practice block.",
-    "Levels": { "0": "Experimental trial.", "1": "Practice trial." }
-  },
-  "block": {
-    "Description": "The sequential index of the experimental block.",
-    "Units": "n/a"
-  },
-  "condition": {
-    "Description": "The main experimental condition.",
-    "Units": "n/a"
-  },
-  "probe_type": {
-    "Description": "The category of the probe stimulus.",
-    "Units": "n/a"
-  },
-  "change_probe": {
-    "Description": "Indicates if the probe item was a change from the memory array.",
-    "Units": "n/a"
-  },
-  "cue_direction": {
-    "Description": "Direction of the cue (e.g., left or right).",
-    "Levels": { "right": "Cued right hemifield.", "left": "Cued left hemifield." }
-  },
-  "cue_image": {
-    "Description": "File name of the image used for the central cue.",
-    "Units": "n/a"
-  },
-  "expected_response": {
-    "Description": "The key the participant was expected to press for a correct response.",
-    "Units": "n/a"
-  },
-  "stimulus_position2ug": {
-    "Description": "Position index or coordinate for 2ug condition",
-    "Units": "n/a"
-  },
-  "probe_position": {
-    "Description": "The position of the probe stimulus on the screen.",
-    "Units": "n/a"
-  },
-  "color0": {
-    "Description": "Color code/index for stimulus item 0.",
-    "Units": "n/a"
-  },
-  "color1": {
-    "Description": "Color code/index for stimulus item 1.",
-    "Units": "n/a"
-  },
-  "color2": {
-    "Description": "Color code/index for stimulus item 2.",
-    "Units": "n/a"
-  },
-  "color3": {
-    "Description": "Color code/index for stimulus item 3.",
-    "Units": "n/a"
-  },
-  "color4": {
-    "Description": "Color code/index for stimulus item 4.",
-    "Units": "n/a"
-  },
-  "color5": {
-    "Description": "Color code/index for stimulus item 5.",
-    "Units": "n/a"
-  },
-  "position_color0": {
-    "Description": "Position index for the item with color 0.",
-    "Units": "n/a"
-  },
-  "position_color1": {
-    "Description": "Position index for the item with color 1.",
-    "Units": "n/a"
-  },
-  "position_color2": {
-    "Description": "Position index for the item with color 2.",
-    "Units": "n/a"
-  },
-  "position_color3": {
-    "Description": "Position index for the item with color 3.",
-    "Units": "n/a"
-  },
-  "position_color4": {
-    "Description": "Position index for the item with color 4.",
-    "Units": "n/a"
-  },
-  "position_color5": {
-    "Description": "Position index for the item with color 5.",
-    "Units": "n/a"
-  },
-  "probe_color0": {
-    "Description": "Color code/index of the probe in the first position.",
-    "Units": "n/a"
-  },
-  "probe_color1": {
-    "Description": "Color code/index of the probe in the second position (if applicable).",
-    "Units": "n/a"
-  },
-  "probe_position1": {
-    "Description": "Position index for the probe item 1.",
-    "Units": "n/a"
-  },
-  "probe_postion0": {
-    "Description": "Position index for the probe item 0.",
-    "Units": "n/a"
-  },
-  "ttl_probe": {
-    "Description": "TTL code for probe presentation event.",
-    "Units": "n/a"
-  },
-  "ttl_correct": {
-    "Description": "TTL code for a correct response event.",
-    "Units": "n/a"
-  },
-  "ttl_incorrect": {
-    "Description": "TTL code for an incorrect response event.",
-    "Units": "n/a"
-  },
-  "ttl_stimulus": {
-    "Description": "TTL code for stimulus array presentation event.",
-    "Units": "n/a"
+      "11": "Stimulus-locked: 2-UR, left cue, change, unrepeated probe",
+      "12": "Stimulus-locked: 3-UR, left cue, change, unrepeated probe",
+      "13": "Stimulus-locked: 3-RWP, left cue, change, unrepeated probe",
+      "14": "Stimulus-locked: 3-RSP, left cue, change, unrepeated probe",
+      "17": "Stimulus-locked: 3-RWP, left cue, change, repeated probe",
+      "18": "Stimulus-locked: 3-RSP, left cue, change, repeated probe",
+      "19": "Stimulus-locked: 2-UR, left cue, no-change, unrepeated probe",
+      "20": "Stimulus-locked: 3-UR, left cue, no-change, unrepeated probe",
+      "21": "Stimulus-locked: 3-RWP, left cue, no-change, unrepeated probe",
+      "22": "Stimulus-locked: 3-RSP, left cue, no-change, unrepeated probe",
+      "25": "Stimulus-locked: 3-RWP, left cue, no-change, repeated probe",
+      "26": "Stimulus-locked: 3-RSP, left cue, no-change, repeated probe",
+      "27": "Stimulus-locked: 2-UR, right cue, change, unrepeated probe",
+      "28": "Stimulus-locked: 3-UR, right cue, change, unrepeated probe",
+      "29": "Stimulus-locked: 3-RWP, right cue, change, unrepeated probe",
+      "30": "Stimulus-locked: 3-RSP, right cue, change, unrepeated probe",
+      "33": "Stimulus-locked: 3-RWP, right cue, change, repeated probe",
+      "34": "Stimulus-locked: 3-RSP, right cue, change, repeated probe",
+      "35": "Stimulus-locked: 2-UR, right cue, no-change, unrepeated probe",
+      "36": "Stimulus-locked: 3-UR, right cue, no-change, unrepeated probe",
+      "37": "Stimulus-locked: 3-RWP, right cue, no-change, unrepeated probe",
+      "38": "Stimulus-locked: 3-RSP, right cue, no-change, unrepeated probe",
+      "41": "Stimulus-locked: 3-RWP, right cue, no-change, repeated probe",
+      "42": "Stimulus-locked: 3-RSP, right cue, no-change, repeated probe",
+      "51": "Probe-locked: 2-UR, left cue",
+      "52": "Probe-locked: 3-UR, left cue",
+      "53": "Probe-locked: 3-RWP, left cue",
+      "54": "Probe-locked: 3-RSP, left cue",
+      "55": "Probe-locked: 2-UR, right cue",
+      "56": "Probe-locked: 3-UR, right cue",
+      "57": "Probe-locked: 3-RWP, right cue",
+      "58": "Probe-locked: 3-RSP, right cue",
+      "120": "Response: Correct",
+      "121": "Response: Incorrect"
+}
   }
 }
