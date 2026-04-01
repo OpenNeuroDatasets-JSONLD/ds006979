@@ -1,7 +1,27 @@
 {
   "age": {
     "Description": "Age of the participant at the time of testing.",
-    "Units": "years"
+    "Units": "years",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": "Age"
+      },
+      "VariableType": "Continuous",
+      "Format": {
+        "TermURL": "nb:FromFloat",
+        "Label": "float"
+      },
+      "MissingValues": [
+        "n/a",
+        "N/A",
+        "na",
+        "NA",
+        "nan",
+        "NaN",
+        ""
+      ]
+    }
   },
   "sex": {
     "Description": "Sex of the participant.",
@@ -9,6 +29,26 @@
       "M": "Male",
       "F": "Female",
       "O": "Other"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": "Sex"
+      },
+      "VariableType": "Categorical",
+      "Levels": {
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": "Male"
+        },
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": "Female"
+        }
+      },
+      "MissingValues": [
+        "O"
+      ]
     }
   },
   "handedness": {
@@ -32,6 +72,16 @@
     "Levels": {
       "included": "Participant's data was included in the final N=39 sample for stimulus-locked ERP analysis.",
       "excluded": "Participant's data was excluded due to excessive artifacts or other quality issues."
+    }
+  },
+  "participant_id": {
+    "Description": "",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
     }
   }
 }
